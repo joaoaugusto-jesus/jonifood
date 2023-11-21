@@ -350,7 +350,7 @@
 }
 
 /******************************/
-/* MEALS SECTION */
+/* PRICING SECTION */
 /******************************/
 
 .section-pricing {
@@ -423,12 +423,20 @@
   text-align: center;
   margin-top: 4.8rem;
 }
+.plan-details {
+  line-height: 1.6rem;
+  text-align: center;
+  font-size: 1.6rem;
+}
 
 .feature-icon {
   color: #e67e22;
-  height: 2.4rem;
-  width: 2.4rem;
+  height: 3.2rem;
+  width: 3.2rem;
   margin-bottom: 3.2rem;
+  background-color: #fdf2e9;
+  border-radius: 50%;
+  padding: 1.6rem;
 }
 
 .feature-title {
@@ -441,4 +449,56 @@
 .feature-text {
   font-size: 1.8rem;
   line-height: 1.8;
+}
+
+/******************************/
+/* CTA SECTION */
+/******************************/
+
+.section-cta {
+  padding: 9.6rem 0;
+}
+
+.cta {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  /* background-color: #e67e22; */
+  box-shadow: 2.4rem 4.8rem rgba(0, 0, 0, 0.015);
+  height: 50rem;
+  border-radius: 11px;
+  background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+  overflow: hidden;
+}
+.cta-text-box {
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+  color: #45260a;
+}
+
+.cta .heading-secondary {
+  margin-bottom: 3.2rem;
+  color: #45260a;
+}
+
+.cta-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 4.8rem;
+}
+
+.cta-img-box {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(235, 152, 79, 0.35),
+      rgba(231, 126, 35, 0.35)
+    ),
+    url("../img/eating.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.cta-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
 }
