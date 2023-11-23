@@ -119,6 +119,7 @@ Create account
 Sign in
 iOS app
 Android app
+
 About Jonifood
 For Business
 Cooking partners
