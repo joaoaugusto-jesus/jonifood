@@ -121,6 +121,7 @@ IN MEDIA QUERIES INSTEAD 1REM = !EM  *16px */
 
   .btn-mobile-nav {
     display: block;
+    z-index: 9999;
   }
 
   .main-nav {

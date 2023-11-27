@@ -66,6 +66,8 @@ html {
   /* 10px / 16px =0.625 = 62.5% */
   /* Percentage of user's browser font-size settings */
   overflow-x: hidden;
+  /*DOES NOT WORK ON SAFARI AND MICROSOTF EDGE*/
+  /* scroll-behavior: smooth; */
 }
 body {
   font-family: "Rubik", sans-serif;
