@@ -59,15 +59,18 @@ allLinks.forEach(function (link) {
 ///////////////////////////////////////////////////////
 // STICKY NAVEGATION
 const sectionHeroEl = document.querySelector(".section-hero");
-const obs = new IntersectionObserver(
+
+const observer = new IntersectionObserver(
   function (entries) {
     const ent = entries[0];
     console.log(ent);
+    console.log("ent.isIntersectin");
+    console.log(ent.isIntersecting);
     if (ent.isIntersecting === false) {
-      document.body.classList.add(".sticky");
+      document.body.classList.add("sticky");
     }
     if (ent.isIntersecting === true) {
-      document.body.classList.remove(".sticky");
+      document.body.classList.remove("sticky");
     }
   },
   {
