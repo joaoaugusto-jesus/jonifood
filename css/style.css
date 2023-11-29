@@ -6,7 +6,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #fdf2e9;
+  background-color: #92b195eb;
 
   /* Because we want to be sticky later*/
   height: 9.6rem;
@@ -44,7 +44,7 @@
   padding: 1.2rem 2.4rem;
   border-radius: 9px;
   color: #fff;
-  background-color: #e67e22;
+  background-color: #f9b109ab;
 }
 
 .main-nav-link:hover,
@@ -101,7 +101,7 @@
 }
 
 .section-hero {
-  background-color: #fdf2e9;
+  background-color: #bc895f;
   padding: 4.8rem 0 9.6rem 0;
 }
 
@@ -182,7 +182,7 @@
 }
 
 .delivered-text span {
-  color: #cf711f;
+  color: #fff;
   font-weight: 700;
 }
 
@@ -631,6 +631,7 @@
 
 .adress {
   margin-bottom: 2.4rem;
+  color: #767676;
 }
 
 .footer-nav {

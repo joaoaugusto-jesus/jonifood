@@ -45,6 +45,20 @@
         #555
         #333
       
+
+        ////////////////////
+        ///Jonifood / Colors //////
+        ///#fff
+        ////#111111
+        //// #222
+        ////#32312f
+        ///#535353
+        ///#4d4a4a
+        ///#f9b309  // #f9b109ab /// #f9b109ec
+        ////#92b195eb
+
+
+
       --- 05 SHADOWS
         0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
       --- 06 BODER_RADIUS
@@ -70,10 +84,10 @@ html {
   /* scroll-behavior: smooth; */
 }
 body {
-  font-family: "Rubik", sans-serif;
+  font-family: "Gotham Black", sans-serif;
   line-height: 1;
   font-weight: 400;
-  color: #555;
+  color: #222;
   /* ONLY WORKS IF THERE'S NOTHING ABSOLUTELY POSITION IN RELATION TO BODY*/
   overflow-x: hidden;
 }
@@ -164,7 +178,7 @@ body {
 .btn,
 .btn:link,
 .btn:visited {
-  background-color: #e67e22;
+  background-color: #f9b109ab;
   color: #fff;
   font-size: 2rem;
   padding: 1.6rem 3.2rem;
@@ -184,24 +198,24 @@ body {
 
 .btn--full:link,
 .btn--full:visited {
-  background-color: #e67e22;
+  background-color: #f9b109ab;
 }
 
 .btn--full:hover,
 .btn--full:active {
-  background-color: #cf711f;
+  background-color: #f9b109ec;
   color: #fff;
 }
 
 .btn--outline:link,
 .btn--outline:visited {
-  background-color: #fff;
-  color: #555;
+  background-color: #92b195eb;
+  color: #222;
 }
 
 .btn--outline:hover,
 .btn--outline:active {
-  background-color: #fdf2e9;
+  background-color: #fff;
   /* border: 3px solid #fff; */
   box-shadow: inset 0 0 0 3px #fff;
 }
